@@ -5,5 +5,5 @@ jdk:
   - openjdk7
   - oraclejdk8
 after_script: 
-  - ./run-agent-test.sh skip
-  - ./run-repackaged-agent-test.sh skip
+  - lib/run-agent-test.sh skip
+  - lib/run-repackaged-agent-test.sh skip
